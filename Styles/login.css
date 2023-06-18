@@ -1,0 +1,13 @@
+
+.body{
+    background-image: ('/Images/Dessert_Background.jpg'); 
+    color: #FFFFFF;
+}
+
+
+.rectangle{
+    background-color:black;
+    height: 100px;
+    width: 200px;
+
+}
