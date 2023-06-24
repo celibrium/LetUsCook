@@ -1,16 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 
 body {
-  background:rgb(255, 247, 245)
+  background:rgb(255, 247, 245);
+  margin: 0px !important;
 }
 .title {
     color: rgb(0, 0, 0);
     font-size: 40px;
     font-family: Poppins;
+    padding-left: 5px;
   }
   .topnav {
-    background-color: #333;
+    background-color: #AB4E68;
     overflow: hidden;
+    font-family: 'EB Garamond', serif;
   }
   
   /* Style the links inside the navigation bar */
@@ -18,19 +22,37 @@ body {
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 16px 16px;
     text-decoration: none;
     font-size: 17px;
   }
   
   /* Change the color of links on hover */
   .topnav a:hover {
-    background-color: #ddd;
+    background-color: rgb(255, 247, 245);
     color: black;
   }
   
   /* Add a color to the active/current link */
   .topnav a.active {
-    background-color: #04AA6D;
-    color: white;
+    background-color: #c46984;
+    color: #f2f2f2;
+  }
+  .topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 9px;
+    margin-bottom: 5px;
+    margin-right: 16px;
+    font-size: 17px;
+    font-family: 'EB Garamond', serif;
+    border-radius: 20px;
+    padding-left: 10px;
+  }
+  .topnav img {
+    float: right;
+    padding: 5px;
+    width: 40px;
+    vertical-align: middle;
   }
